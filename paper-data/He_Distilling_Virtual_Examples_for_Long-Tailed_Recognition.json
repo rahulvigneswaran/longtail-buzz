@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.15042",
+  "title": "Distilling Virtual Examples for Long-Tailed Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/ICCV2021/papers/He_Distilling_Virtual_Examples_for_Long-Tailed_Recognition_ICCV_2021_paper.pdf",
+  "authors": [
+    "Yin-Yin He",
+    "Jianxin Wu",
+    "Xiu-Shen Wei"
+  ],
+  "abstract": "We tackle the long-tailed visual recognition problem from the knowledge distillation perspective by proposing a Distill the Virtual Examples (DiVE) method. Specifically, by treating the predictions of a teacher model as virtual exam- ples, we prove that distilling from these virtual examples is equivalent to label distribution learning under certain con- straints. We show that when the virtual example distribu- tion becomes flatter than the original input distribution, the under-represented tail classes will receive significant im- provements, which is crucial in long-tailed recognition. The proposed DiVE method can explicitly tune the virtual exam- ple distribution to become flat. Extensive experiments on three benchmark datasets, including the large-scale iNat- uralist ones, justify that the proposed DiVE method can significantly outperform state-of-the-art methods. Further- more, additional analyses and experiments verify the virtual example interpretation, and demonstrate the effectiveness of tailored designs in DiVE for long-tailed problems.",
+  "s2id": "f61810f6b6202b2cac12236ecb0bfd1ecd230eb2",
+  "posterSession": "ICCV",
+  "citations": 2,
+  "twitter": {
+    "retweets": 1,
+    "likes": 5,
+    "replies": 0,
+    "ids": [
+      "1377879692741517315"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "arXiv": "http://arxiv.org/abs/2008.10032",
+  "title": "Seesaw Loss for Long-Tailed Instance Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Seesaw_Loss_for_Long-Tailed_Instance_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jiaqi Wang",
+    "Wenwei Zhang",
+    "Yuhang Zang",
+    "Yuhang Cao",
+    "Jiangmiao Pang",
+    "Tao Gong",
+    "Kai Chen",
+    "Ziwei Liu",
+    "Chen Change Loy",
+    "Dahua Lin"
+  ],
+  "abstract": "Instance segmentation has witnessed a remarkable progress on class-balanced benchmarks. However, they fail to perform as accurately in real-world scenarios, where the category distribution of objects naturally comes with a long tail. Instances of head classes dominate a long-tailed dataset and they serve as negative samples of tail categories. The overwhelming gradients of negative samples on tail classes lead to a biased learning process for classifiers. Consequently, objects of tail categories are more likely to be misclassified as backgrounds or head categories. To tackle this problem, we propose Seesaw Loss to dynamically re-balance gradients of positive and negative samples for each category, with two complementary factors, i.e., mitigation factor and compensation factor. The mitigation factor reduces punishments to tail categories w.r.t. the ratio of cumulative training instances between different categories. Meanwhile, the compensation factor increases the penalty of misclassified instances to avoid false positives of tail categories. We conduct extensive experiments on Seesaw Loss with mainstream frameworks and different data sampling strategies. With a simple end-to-end training pipeline, Seesaw Loss obtains significant gains over Cross-Entropy Loss, and achieves state-of-the-art performance on LVIS dataset without bells and whistles. Code is available at https://github.com/open-mmlab/mmdetection.",
+  "s2id": "4644b8204ff7fcc3b0835ffad2f4216911ac9426",
+  "posterSession": "CVPR",
+  "citations": 11,
+  "twitter": {
+    "retweets": 10,
+    "likes": 54,
+    "replies": 2,
+    "ids": [
+      "1340312833490182146",
+      "1300357714657202178",
+      "1432765465391091717",
+      "1299607575814483968",
+      "1299356097569009665",
+      "1298088668486221824"
+    ]
+  }
+}

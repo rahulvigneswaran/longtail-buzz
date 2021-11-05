@@ -1,0 +1,90 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+.ant-radio-button-wrapper,
+.ant-checkbox-wrapper,
+button,
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+statuspanel[label^="Looking"] {
+  display: none !important;
+}
+statuspanel[label^="Connect"] {
+  display: none !important;
+}
+statuspanel[label^="Waiting"] {
+  display: none !important;
+}
+statuspanel[label^="Transfer"] {
+  display: none !important;
+}
+
+.styles_count__3ceOG,
+.styles_button__3Vugn {
+  font-family: "arial" !important;
+}
+
+.styles_root__3WDXs {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+// remove anchor styling
+a {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #5273e0 !important;
+  border-color: #5273e0 !important;
+}
+
+.ant-radio-checked .ant-radio-inner {
+  border-color: #5273e0 !important ;
+}
+
+.ant-radio-checked .ant-radio-inner:after {
+  background-color: #5273e0 !important ;
+}
+
+.ant-radio:hover .ant-radio-inner {
+  border-color: #5273e0 !important;
+}
+
+.ant-slider-rail {
+  background-color: transparent !important;
+}
+
+.ant-slider-handle {
+  border-color: #7f9ef3 !important;
+}
+
+.ant-slider-track {
+  background-color: #7f9ef3 !important;
+}

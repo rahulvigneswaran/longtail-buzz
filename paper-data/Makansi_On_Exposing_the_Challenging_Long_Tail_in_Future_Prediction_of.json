@@ -1,0 +1,24 @@
+{
+  "arXiv": null,
+  "title": "On Exposing the Challenging Long Tail in Future Prediction of Traffic Actors",
+  "pdf": "https://openaccess.thecvf.com/content/ICCV2021/papers/Makansi_On_Exposing_the_Challenging_Long_Tail_in_Future_Prediction_of_ICCV_2021_paper.pdf",
+  "authors": [
+    "Osama Makansi",
+    "\u00d6zg\u00fcn \u00c7i\u00e7ek",
+    "Yassine Marrakchi",
+    "Thomas Brox"
+  ],
+  "abstract": "Predicting the future states of dynamic traffic actors enables autonomous systems to avoid accidents and operate safely. Remarkably, the most critical scenarios are much less frequent and more complex than the uncritical ones. Therefore, uncritical cases dominate the prediction. In this paper, we address specifically the challenging scenarios at the long tail of the dataset distribution. Our analysis shows that the common losses tend to place challenging cases sub-optimally in the embedding space. As a consequence, we propose to supplement the usual loss with a loss that places challenging cases closer to each other in the embedding space. This triggers sharing information among challenging cases and learning specific predictive features. We show on four public datasets that this leads to improved performance on the hard scenarios while the overall performance stays stable. The approach is agnostic w.r.t. the used network architecture, input modality or viewpoint, and can be integrated into existing solutions easily.",
+  "s2id": "6d93eee77a28b5448f9e6a826b200fd40a9f6a6a",
+  "posterSession": "ICCV",
+  "citations": 0,
+  "twitter": {
+    "retweets": 1,
+    "likes": 6,
+    "replies": 1,
+    "ids": [
+      "1419277604423716865",
+      "1451064769314656260"
+    ]
+  }
+}

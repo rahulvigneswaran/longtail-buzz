@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~components/*": [
+        "./src/components/*"
+      ],
+      "~styles/*": [
+        "./src/styles/*"
+      ],
+      "~icons/*": [
+        "./static/icons/*"
+      ]
+    },
+    "jsx": "react",
+    "esModuleInterop": true,
+    "types": [
+      "@emotion/react/types/css-prop"
+    ],
+    "target": "ES2016"
+  }
+}
