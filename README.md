@@ -1,34 +1,40 @@
 <h1 align="center">
-  🐝 CVPR Buzz 🍯
+  🐝 Long-Tail Buzz 🍯
 </h1>
-<h3 align="center"><em>Explore Trending Papers at CVPR 2021</em></h3>
+<h3 align="center"><em>Explore Trending Long-Tail Papers at CVPR and ICCV 2021</em></h3>
 
 <div align="center">
-  <a aria-label="License" href="https://github.com/mattdeitke/cvpr-buzz/blob/main/LICENSE">
+  <a aria-label="License" href="https://github.com/mattdeitke/longtail-buzz/blob/main/LICENSE">
     <img alt="" src="https://img.shields.io/badge/License-MIT-6700EB.svg?style=for-the-badge&labelColor=000000&color=blue">
   </a>
   <a aria-label="License" href="http://cvpr2021.thecvf.com/">
-    <img alt="" src="https://img.shields.io/badge/Conference-CVPR-6700EB.svg?style=for-the-badge&labelColor=000000&color=17bb8a">
+    <img alt="" src="https://img.shields.io/badge/Conferences-CVPR | ICCV-6700EB.svg?style=for-the-badge&labelColor=000000&color=17bb8a">
   </a>
   <a aria-label="License" href="http://cvpr2021.thecvf.com/">
-    <img alt="" src="https://img.shields.io/badge/Dates-June&nbsp;19&#47;25-6700EB.svg?style=for-the-badge&labelColor=000000&color=6700eb">
+    <img alt="" src="https://img.shields.io/badge/Year-2021-6700EB.svg?style=for-the-badge&labelColor=000000&color=6700eb">
   </a>
 </div>
 
 <br />
 
-<a href="https://mattdeitke.com/cvpr-buzz">
-<img src="https://user-images.githubusercontent.com/28768645/122666289-3f5ca080-d161-11eb-9140-f6452a8ee1e1.png"/>
-</a>
+![](page_ss.jpeg)
 
+## 🍴 Acknowledgement
+This repo is a fork of [CVPR Buzz](https://mattdeitke.com/cvpr-buzz/).
 
 ## 📊 Dataset
 
 The scraping code is in `tasks.py`. Data is cached on the website, which makes it extremely fast to use with GraphQL and allows for fewer dependencies to be relied on.
 
-#### 👁️ CVPR Accepted Papers
+#### 👁️ CVPR/ICCV Accepted Papers
 
-The accepted papers and their abstracts are extracted from [CVPR](https://openaccess.thecvf.com/CVPR2021?day=all).
+- The accepted papers and their abstracts are extracted from [CVPR](https://openaccess.thecvf.com/CVPR2021?day=all) and [ICCV](https://openaccess.thecvf.com/ICCV2021?day=all).
+- The papers are then filtered based on whether the following tags are available in the title: `"long-tail",
+            "long-tailed",
+            "long tail",
+            "longtail",
+            "longtailed",
+            "long tailed"`.
 
 #### 📖 Citation Data
 
