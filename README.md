@@ -55,7 +55,7 @@ Each unique tweet is only counted once.
 
 One can now also add tweets manually (keep reading), which aren't caught in the above criteria.
 
-#### 📱 arXiv Vanity
+#### 📱 Read on Mobile
 arXiv Vanity renders academic papers from arXiv as responsive web pages so you don’t have to squint at a PDF. "📱 arXiv Vanity" button has been added right next to the arXiv button. Go check the [💅 arXiv Vanity](http://www.arxiv-vanity.com/) project and support them if you can.
 
 ## 👊 Adding Data

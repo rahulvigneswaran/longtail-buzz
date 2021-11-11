@@ -424,7 +424,7 @@ function Paper(props: PaperComponent) {
                 }
               `}
             >
-              <Emoji emoji="iphone" size={16} /> arXiv Vanity
+              <Emoji emoji="iphone" size={16} /> Read on Mobile
             </div>
           </a>
         ) : (
