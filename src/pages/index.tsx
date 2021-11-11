@@ -397,6 +397,36 @@ function Paper(props: PaperComponent) {
               <Emoji emoji="closed_book" size={16} /> arXiv
             </div>
           </a>
+          ) : (
+            <></>
+          )}
+        {props.arXiv ? (
+          <a href={props.arXiv.substring("http:".length).replace("arxiv.org/abs", "www.arxiv-vanity.com/papers")} target="_blank">
+            <div
+              css={css`
+                display: inline-block;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 2px;
+                padding-bottom: 3px;
+                margin-right: 10px;
+                border: 1px solid ${color.gray5};
+                border-radius: 5px;
+                transition-duration: 0.3s;
+
+                &:hover {
+                  border-color: ${color.gray6 + "88"};
+                  background-color: ${color.gray2};
+                }
+
+                > .emoji-mart-emoji {
+                  vertical-align: middle;
+                }
+              `}
+            >
+              <Emoji emoji="iphone" size={16} /> arXiv Vanity
+            </div>
+          </a>
         ) : (
           <></>
         )}
