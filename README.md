@@ -1,17 +1,17 @@
 <h1 align="center">
   🐝 Long-Tail Buzz 🍯
 </h1>
-<h3 align="center"><em>Explore Trending Long-Tail Papers at CVPR and ICCV 2021</em></h3>
+<h3 align="center"><em>Explore Trending Long-Tail Papers at top AI conference (2022)</em></h3>
 
 <div align="center">
   <a aria-label="License" href="https://github.com/mattdeitke/longtail-buzz/blob/main/LICENSE">
     <img alt="" src="https://img.shields.io/badge/License-MIT-6700EB.svg?style=for-the-badge&labelColor=000000&color=blue">
   </a>
   <a aria-label="License" href="http://cvpr2021.thecvf.com/">
-    <img alt="" src="https://img.shields.io/badge/Conferences-CVPR | ICCV-6700EB.svg?style=for-the-badge&labelColor=000000&color=17bb8a">
+    <img alt="" src="https://img.shields.io/badge/Conferences-CVPR | ECCV-6700EB.svg?style=for-the-badge&labelColor=000000&color=17bb8a">
   </a>
   <a aria-label="License" href="http://cvpr2021.thecvf.com/">
-    <img alt="" src="https://img.shields.io/badge/Year-2021-6700EB.svg?style=for-the-badge&labelColor=000000&color=6700eb">
+    <img alt="" src="https://img.shields.io/badge/Year-2022-6700EB.svg?style=for-the-badge&labelColor=000000&color=6700eb">
   </a>
 </div>
 
